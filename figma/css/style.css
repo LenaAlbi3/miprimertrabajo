@@ -1,0 +1,137 @@
+.img-hero{
+    display: none;
+}
+
+.banner{
+    margin: 20px;
+    width: 90vw;
+    height: 23vh;
+    background-color: var(--p-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.banner h3{
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.banner p{
+    display: none;
+}
+
+.card{
+    background-color: var(--sup2-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.card p{
+    color: #747474;
+    margin-bottom: 20px;
+}
+
+
+.cont-empresas{
+    margin: 20px;
+    justify-self: center;
+    width: 85vw;
+    height: 8vh;
+    background-color: var(--sup-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.empresa{
+    width: 60px;
+    height: 30px;
+    background-color: var(--sup2-color);
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.empresa2{
+    display: none;
+}
+
+@media (min-width: 1440px){
+    .section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner{
+        width: 55vw;
+        height: 250px;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .banner h3{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .banner p{
+        display: inline;
+        color: #dbdbdb;
+        margin-left: 20px;
+        font-size: 1.3rem;
+    }
+
+    .img-hero{
+        width: 35vw;
+        height: 250px;
+        margin: 20px;
+        background-color: var(--sup2-color);
+        color: #747474;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .servicios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        width: 30vw;
+    }
+
+    .card p{
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+
+    .card a{
+        text-decoration: underline;
+    }
+
+    .cont-empresas{
+        background-color: var(--bg-color);
+    }
+
+    .empresa2{
+        display: flex;
+        width: 60px;
+    height: 30px;
+    background-color: var(--sup2-color);
+    border-radius: 3px;
+    margin: 0 5px;
+    }
+}
+
